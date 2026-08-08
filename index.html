@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>proofpilot | text correction on demand</title>
+    <meta name="description" content="proofpilot is a macOS selected-text correction utility. Highlight text, press command-shift-k, and replace it with cleaner writing using local rules and optional Ollama models.">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="proofpilot">
+      <a class="brand" href="#top" aria-label="proofpilot home">proofpilot</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#try">try it</a>
+        <a href="#settings">settings</a>
+        <a href="#download">download</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="proof-hero" aria-labelledby="hero-title">
+        <div class="proof-hero-copy">
+          <p class="eyebrow">text correction on demand for macOS</p>
+          <h1 id="hero-title">proofpilot</h1>
+          <p class="hero-copy">
+            Select messy text. Press command-shift-k. Get cleaner writing, with stronger local correction when Ollama is running.
+          </p>
+          <div class="hero-actions" aria-label="proofpilot actions">
+            <a class="button primary" href="downloads/proofpilot-1.5.22.2-install.zip">Download beta</a>
+            <a class="button secondary" href="#try">Try examples</a>
+          </div>
+        </div>
+
+        <div class="thinking-mark" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+
+      <section class="try-section" id="try" aria-labelledby="try-title">
+        <div class="section-heading">
+          <p class="eyebrow">try it after install</p>
+          <h2 id="try-title">Highlight any line below.</h2>
+        </div>
+
+        <div class="proofpilot-demo" aria-label="proofpilot correction examples">
+          <div class="shortcut-pill">command-shift-k</div>
+          <div class="demo-examples">
+            <p tabindex="0">Ths is a sentnce with teh wrong wurd.</p>
+            <p tabindex="0">i has a apple. yep</p>
+            <p tabindex="0">please send teh notes when your done with them</p>
+            <p tabindex="0">THIS WAS WRITTEN WITH ACCIDENTAL CAPS LOCK.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="settings-section" id="settings" aria-labelledby="settings-title">
+        <div>
+          <p class="eyebrow">one-time setup</p>
+          <h2 id="settings-title">Local correction, no chat box.</h2>
+        </div>
+        <div class="setting-lines">
+          <p>grammar</p>
+          <p>capitalization</p>
+          <p>thinking mark</p>
+          <p>ollama model picker</p>
+          <p>guided ollama install</p>
+          <p>no bundled model files</p>
+          <p>clean uninstall</p>
+        </div>
+      </section>
+
+      <section class="ollama-section" aria-labelledby="ollama-title">
+        <div>
+          <p class="eyebrow">recommended local engine</p>
+          <h2 id="ollama-title">Use the model already on your Mac.</h2>
+        </div>
+        <div class="ollama-copy">
+          <p>
+            proofpilot can use Ollama for stronger sentence repair and formal rewrites. During setup, it checks whether Ollama is installed, lists the models already loaded on your Mac, and lets you choose which one to use.
+          </p>
+          <p>
+            If Ollama is missing, proofpilot opens the official Ollama download page. It does not include Ollama model files, because model licenses belong to those models.
+          </p>
+        </div>
+      </section>
+
+      <section class="download" id="download" aria-labelledby="download-title">
+        <div class="download-copy">
+          <p class="eyebrow">download</p>
+          <h2 id="download-title">proofpilot beta for macOS.</h2>
+          <p>
+            The installer includes the shortcut service, setup window, local
+            correction engine, Ollama setup guidance, and a complete uninstall option.
+          </p>
+        </div>
+        <div class="download-actions">
+          <a class="button primary" href="downloads/proofpilot-1.5.22.2-install.zip">Download proofpilot</a>
+          <a class="text-link" href="downloads/proofpilot-1.5.22.2-install.sha256">SHA-256 checksum</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>proofpilot</span>
+      <span>macOS selected-text correction</span>
+    </footer>
+  </body>
+</html>
